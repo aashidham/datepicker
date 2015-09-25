@@ -8,18 +8,14 @@
     height: 4%;
     float: left;
     border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    background-color: #808080;
 }
 
 .rows_minutes {
-	height: 21.6%;
-	background-color: #808080;
-	border-bottom: 1px black dotted;
-}
-
-.rows_minutes_last {
 	height: 22%;
 	background-color: #808080;
-	border-bottom: 1px solid black;
+	border-bottom: 1px black dotted;
 }
 
 .month {

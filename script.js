@@ -47,10 +47,6 @@ $(document).ready(function () {
 				small_div.setAttribute('class', classname_for_small_div);
 				smaller_div.appendChild(small_div);
 			}
-			var small_div = document.createElement('div');
-			classname_for_small_div = j + 1 +' ' + i + ' ' + 45 + ' rows_minutes';
-			small_div.setAttribute('class', classname_for_small_div);
-			smaller_div.appendChild(small_div);
 
 			big_div.appendChild(smaller_div);
 		};
