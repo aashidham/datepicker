@@ -1,0 +1,44 @@
+.container {
+	width: 80%;
+	height: 100%;
+	margin: auto;
+}
+
+.rows_days {
+    height: 4%;
+    float: left;
+    border-right: 1px solid black;
+}
+
+.rows_minutes {
+	height: 21.6%;
+	background-color: #808080;
+	border-bottom: 1px black dotted;
+}
+
+.rows_minutes_last {
+	height: 22%;
+	background-color: #808080;
+	border-bottom: 1px solid black;
+}
+
+.month {
+    font-size: 11px;
+    float: left;
+    text-align: center;
+}
+.date {
+    float: left;
+    text-align: center;
+}
+
+.clear {
+	clear: both;
+}
+
+.times {
+	font-size: 8px;
+	float: left;
+	margin-left: -5%;
+	margin-top: -2px;
+}
